@@ -1,0 +1,3 @@
+[submodule "stravalib"]
+	path = stravalib
+	url = https://github.com/hozn/stravalib
