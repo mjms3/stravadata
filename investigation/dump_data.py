@@ -11,7 +11,7 @@ authorize_url = client.authorization_url(client_id=CLIENT_ID, redirect_uri='http
 client = Client(access_token=ACCESS_TOKEN)
 
 curr_athlete = client.get_athlete()
-activities = client.get_activities(limit=2)
+activities = client.get_activities(limit=10)
 types=['time', 'latlng', 'distance', 'altitude', 
        'velocity_smooth','watts', 'temp', 'moving', 'grade_smooth']
 
