@@ -35,4 +35,8 @@ dependencies:
 - wheel=0.29.0=py27_0
 - wrapt=1.10.6=py27_0
 - zlib=1.2.8=3
+- pip:
+  - arrow==0.8.0
+  - stravalib==0.6.3
+  - units==0.6
 
